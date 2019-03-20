@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Class Schedule</title>
+
+</head>
+<body>
+  <h1>Class Schedule</h1>
+
+  <script>
+    const day = new Date().getDay();
+
+    switch (day) {
+      case 0:
+      document.write("It's Sunday, I have class tomorrow.");
+      break;
+      case 1:
+      document.write("It's Monday, I have three classes today.");
+      break;
+      case 2:
+      document.write("It's Tuesday, I only have one class today.");
+      break;
+      case 3:
+      document.write("It's Wednesday, I have three classes today.");
+      break;
+      case 4:
+      document.write("It's Thursday, I have work but no classes.");
+      break;
+      case 5:
+      document.write("It's Friday, I have work but no classes.");
+      break;
+      case 6:
+      document.write("It's Saturday, I have off today.");
+      break;
+    }
+  </script>
+<br>
+<br>
+<script type="text/javascript">
+		var students = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+		document.write("<b>Days of the week</b><br />");
+		for (i=0;i<students.length;i++)
+		{
+		document.write(students[i] + "<br />");
+		}
+	</script>
+
+  <br>
+  <br>
+
+  <img src="class.jpg">
+</body>
+</html>
